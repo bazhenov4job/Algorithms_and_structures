@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dab0f162-694d-4617-8b06-c1a81fac5860" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Lesson_02/Les_2_euc_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_02/Les_2_euc_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_02/Les_2_euc_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_02/Les_2_example_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_02/Les_2_example_akkerman.py" afterDir="false" />
+>>>>>>> 88ce61e151d22a0d8e41e9fa8f46c5343382a167
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> b898f14fc341600678808e4ef8d46eac1c36c18a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +63,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson_02/Les_2_euc_3.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="110">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="44">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+=======
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> b898f14fc341600678808e4ef8d46eac1c36c18a
+>>>>>>> 88ce61e151d22a0d8e41e9fa8f46c5343382a167
             </state>
           </provider>
         </entry>
@@ -92,6 +114,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -117,8 +140,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> b898f14fc341600678808e4ef8d46eac1c36c18a
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,7 +296,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32855567" />
+>>>>>>> b898f14fc341600678808e4ef8d46eac1c36c18a
+>>>>>>> 88ce61e151d22a0d8e41e9fa8f46c5343382a167
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,8 +388,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_02/Les_2_euc_3.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="110">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="44">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+=======
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> b898f14fc341600678808e4ef8d46eac1c36c18a
+>>>>>>> 88ce61e151d22a0d8e41e9fa8f46c5343382a167
         </state>
       </provider>
     </entry>
