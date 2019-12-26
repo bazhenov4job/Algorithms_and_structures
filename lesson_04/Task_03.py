@@ -1,4 +1,5 @@
 import cProfile
+import functools
 
 
 def test_fib(func):
@@ -8,6 +9,7 @@ def test_fib(func):
         print(f'Test {i} OK')
 
 
+@functools.lru_cache()
 def fib(n):
     if n < 2:
         return n
@@ -15,8 +17,8 @@ def fib(n):
 
 
 cProfile.run('fib(10)')
-cProfile.run('fib(15)')
 cProfile.run('fib(20)')
+cProfile.run('fib(100)')
 
 # test_fib(fib)
 # python -m timeit -n 100 -s "import Task_03" "Task_03.fib(10)"
