@@ -13,7 +13,7 @@ print(b, c, sep='\n')
 c.clear()
 print(c)
 
-print('*' * 50)
+print('*here' * 25)
 d = deque([i for i in range(5)], maxlen=7)
 d.append(5)
 d.appendleft(6)
