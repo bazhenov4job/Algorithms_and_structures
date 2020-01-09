@@ -2,7 +2,6 @@ from collections import defaultdict
 
 a = defaultdict()
 print(a)
-
 s = 'flklgblvvlubbjnvlur'
 b = defaultdict(int)
 for i in s:
