@@ -49,6 +49,7 @@ def bfs(graph, start, finish):
 
     cost += 1
     way.appendleft(start)
+    print(parrent)
     return way
 
 
