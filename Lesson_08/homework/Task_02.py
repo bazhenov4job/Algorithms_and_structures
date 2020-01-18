@@ -41,11 +41,12 @@ def dijkstra(graph, start):
                 # если стоимость пути в ячейке больше ребра и базовой, то
                 if cost[i] > vertex + cost[start]:
                     cost[i] = vertex + cost[start]
+                    # удаляем неправильный путь, тоесть путь с бОльшей ценой, заменяем на путь с меньшей
                     way[i].pop()
                     if start in way[i]:
                         way[i] = way[i][:way[i].index(start) + 1]
                     parent[i] = start
-                    # Придумать как добавить наследование от предыдущих вершин
+                    # Придумал как добавить наследование пути от предыдущих вершин
                     heritage = way[start]
                     for element in heritage:
                         if element not in way[i]:

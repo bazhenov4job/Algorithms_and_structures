@@ -56,6 +56,7 @@ def begin_dfs(graph, start):
                 dfs(graph, vertex)
             else:
                 count_visited += 1
+        # когда все смежные вершины мы уже посетили, пора идти к родителю, на предыдущий уровень
         if count_visited == len(graph[start]):
             return ways[start][-1]
 
