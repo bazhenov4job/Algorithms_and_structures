@@ -12,13 +12,14 @@ g = [
     [0, 0, 0, 0, 0, 1, 2, 0]
 ]
 
-"""g = [
-    [0, 1, 0, 0, 0],
-    [0, 0, 2, 3, 0],
-    [0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 1],
-    [0, 0, 0, 0, 0]
-]"""
+# g = [
+#     [0, 1, 0, 0, 0],
+#     [0, 0, 2, 3, 0],
+#     [0, 0, 0, 0, 0],
+#     [0, 0, 0, 0, 1],
+#     [0, 0, 0, 0, 0]
+# ]
+
 
 def dijkstra(graph, start):
     length = len(graph)
@@ -36,16 +37,19 @@ def dijkstra(graph, start):
         for i, vertex in enumerate(graph[start]):
             # вершина рассматривается если ребро к ней существует и её не посещали
             if vertex != 0 and not is_visited[i]:
+
                 # если стоимость пути в ячейке больше ребра и базовой, то
                 if cost[i] > vertex + cost[start]:
                     cost[i] = vertex + cost[start]
+                    way[i].pop()
+                    if start in way[i]:
+                        way[i] = way[i][:way[i].index(start) + 1]
+                    parent[i] = start
                     # Придумать как добавить наследование от предыдущих вершин
                     heritage = way[start]
                     for element in heritage:
                         if element not in way[i]:
                             way[i].append(element)
-                    if start not in way[i]:
-                        way[i].append(start)
                     if i not in way[i]:
                         way[i].append(i)
 
