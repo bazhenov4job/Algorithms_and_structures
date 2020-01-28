@@ -54,4 +54,3 @@ def haffman_encode(string):
 
 
 print(haffman_encode('abrakadabra'))
-
